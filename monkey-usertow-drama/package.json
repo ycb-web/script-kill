@@ -1,0 +1,23 @@
+{
+  "name": "monkey-usertow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "moment": "^2.29.1",
+    "uview-ui": "^1.8.4"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/suzhou-education/monkey-usertow.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,466 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/home/home",
+			"permission": {
+				"scope.userLocation": {
+					"desc": "平台会根据您的定位，推送不同的内容"
+				}
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {
+				"navigationBarTitleText": "我的游戏",
+				"backgroundColor": "#1D0F95",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "团队剧本杀",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+
+		{
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/home/demo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/home/chooseAddress",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/home/searchAdd",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/home/banner",
+			"style": {
+				"navigationBarTitleText": "品牌概念介绍",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/home/commission",
+			"style": {
+				"navigationBarTitleText": "定制活动",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/seek/seek",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/product/EventProductsDetail/EventProductsDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/product/createdActiveOrder",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/product/PostComments",
+			"style": {
+				"navigationBarTitleText": "活动评价",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/product/pinlunList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/product/Comments",
+			"style": {
+				"navigationBarTitleText": "评价",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠卷列表",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/coupon/couponBags",
+			"style": {
+				"navigationBarTitleText": "优惠券礼包",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/coupon/bigCouponDet",
+			"style": {
+				"navigationBarTitleText": "领取优惠券",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/coupon/my-coupon",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	],
+
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+				"path": "my/userInfo",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			},
+			{
+				"path": "my/addMonkey",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "my/activity",
+				"style": {
+					"navigationBarTitleText": "我的家人",
+					"enablePullDownRefresh": true,
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"navigationBarTextStyle": "white"
+				}
+			},
+			{
+				"path": "my/components/u-avatar-cropper/u-avatar-cropper",
+				"style": {
+					"navigationBarTitleText": "头像裁剪",
+					"navigationBarBackgroundColor": "#000000",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "my/BindingMobile",
+				"style": {
+					"navigationBarTitleText": "绑定手机号",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "my/invitation",
+				"style": {
+					"navigationBarTitleText": "邀请亲友",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "my/kefuyijian",
+				"style": {
+					"navigationBarTitleText": "意见",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+
+				}
+			}, {
+				"path": "order/order",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			},
+			{
+				"path": "order/activeOrderDet",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "order/needPayOrder",
+				"style": {
+					"navigationBarTitleText": "大猴小猴亲子",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "order/payOrderSucess",
+				"style": {
+					"navigationBarTitleText": "支付成功",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "order/needPayGoodOrder",
+				"style": {
+					"navigationBarTitleText": "未支付订单",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "order/goodOrderDet",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"navigationBarBackgroundColor": "#FFFFFF",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "collection/collection",
+				"style": {
+					"navigationBarTitleText": "我的收藏",
+					"enablePullDownRefresh": true,
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "invitation/invitation",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "logistics/logistics",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "tickets/tickets",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+				}
+
+			}
+		]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+				"path": "activity/point-list",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "chat/chat",
+				"style": {
+					"navigationBarTitleText": "队伍聊天",
+					"navigationBarTextStyle": "black",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "activity/ready",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			},
+			{
+				"path": "activity/loading",
+				"style": {
+					"navigationBarTitleText": "我的活动",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "activity/map",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "activity/invite",
+				"style": {
+					"navigationBarTitleText": "邀请小伙伴",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "activity/clue",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "activity/plot-detail",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "activity/role-detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white",
+					"navigationStyle": "custom"
+				}
+
+			}, {
+				"path": "activity/marry",
+				"style": {
+					"navigationBarTitleText": "结婚",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+
+			}, {
+				"path": "activity/proposal",
+				"style": {
+					"navigationBarTitleText": "求婚",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "activity/ranking",
+				"style": {
+					"navigationBarTitleText": "排行榜",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "activity/task",
+				"style": {
+					"navigationBarTitleText": "任务详情",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"navigationBarTextStyle": "white"
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		// "navigationStyle": "custom"
+		"navigationBarBackgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#9F8CBE",
+		"backgroundColor": "#1D1235",
+		"selectedColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabs/tab1-1.png",
+				"selectedIconPath": "static/tabs/tab1-2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/activity/index",
+				"iconPath": "static/tabs/tab2-1.png",
+				"selectedIconPath": "static/tabs/tab2-2.png",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabs/tab3-1.png",
+				"selectedIconPath": "static/tabs/tab3-2.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}

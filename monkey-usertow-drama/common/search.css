@@ -1,0 +1,16 @@
+.header-switch {
+	margin-top: 20rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #333333;
+}
+.switch-item {
+	padding-bottom: 14rpx;
+}
+.switch-item-act {
+	background: url(@/static/coupon-stars.png) no-repeat;
+	background-size: 26rpx 10rpx;
+	background-position: 50% 41rpx;
+	font-weight: bold;
+}
